@@ -51,7 +51,7 @@
         "fileName": "TestCase.xaml"
       },
       {
-        "editingStatus": "Publishable",
+        "editingStatus": "InProgress",
         "testCaseId": "7a87b9f6-fc07-40f3-83b9-bc190789f280",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
