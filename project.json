@@ -1,10 +1,13 @@
 {
-  "name": "Pipeline",
-  "description": "Blank Process",
+  "name": "PipelineDemo",
+  "description": "PipelineDemo",
   "main": "Main.xaml",
   "dependencies": {
+    "UiPath.Excel.Activities": "[2.20.2]",
+    "UiPath.Mail.Activities": "[1.20.0]",
     "UiPath.System.Activities": "[23.4.3]",
-    "UiPath.Testing.Activities": "[23.4.1]"
+    "UiPath.Testing.Activities": "[23.4.1]",
+    "UiPath.UIAutomation.Activities": "[23.4.7]"
   },
   "webServices": [],
   "entitiesStores": [],
@@ -39,14 +42,36 @@
     "processOptions": {
       "ignoredFiles": []
     },
-    "fileInfoCollection": [],
+    "fileInfoCollection": [
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "e035f430-3f11-4472-94a3-10a3a1ecbe62",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestCase.xaml"
+      },
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "7a87b9f6-fc07-40f3-83b9-bc190789f280",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestMatch.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "b3833860-bcbe-494f-a2b2-7b8c31b8ca7e",
+        "testCaseType": "TestCase",
+        "executionTemplateInvokeIsolated": false,
+        "fileName": "TestFail.xaml"
+      }
+    ],
     "modernBehavior": true
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
       "filePath": "Main.xaml",
-      "uniqueId": "84ec952e-cab2-45a1-84da-5e0897db3edc",
+      "uniqueId": "c030ee24-04db-4593-b1b8-987dbcc06515",
       "input": [],
       "output": []
     }
