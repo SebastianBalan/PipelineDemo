@@ -51,14 +51,14 @@
         "fileName": "TestCase.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "7a87b9f6-fc07-40f3-83b9-bc190789f280",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
         "fileName": "TestMatch.xaml"
       },
       {
-        "editingStatus": "InProgress",
+        "editingStatus": "Publishable",
         "testCaseId": "b3833860-bcbe-494f-a2b2-7b8c31b8ca7e",
         "testCaseType": "TestCase",
         "executionTemplateInvokeIsolated": false,
