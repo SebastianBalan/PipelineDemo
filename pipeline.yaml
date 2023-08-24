@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Checkout code') {
             steps {
-                git branch: 'main',
+                git branch: 'development',
                 credentialsId: 'SebastianBalanLiveCredential',
                 url: 'https://github.com/SebastianBalan/Pipeline'
             }
@@ -38,7 +38,7 @@ pipeline {
                  credentials: Token(accountName: 'aitraining', credentialsId: 'userkeyOrch'),
                  entryPointPaths: 'Main.xaml',
                  environments: '',
-                 folderName: 'sebi',
+                 folderName: 'Pipelines',
                  orchestratorAddress: 'https://cloud.uipath.com/aitraining',
                  orchestratorTenant: 'UiPathDefault',
                  packagePath: PROCESS_OUTPUT_PATH,
