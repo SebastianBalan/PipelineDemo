@@ -1,5 +1,6 @@
 {
   "name": "PipelineDemo",
+  "projectId": "6f267f1b-a911-40a7-9004-cdae97097d81",
   "description": "PipelineDemo",
   "main": "Main.xaml",
   "dependencies": {
@@ -62,7 +63,8 @@
         "fileName": "TestFail.xaml"
       }
     ],
-    "modernBehavior": true
+    "modernBehavior": true,
+    "saveToCloud": false
   },
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
